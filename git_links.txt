@@ -1,0 +1,4 @@
+Main repo:	https://github.com/JoeyFuller/DSW1.git
+
+Recipe:	http://joeyfuller.github.io/DSW1/sauceless-pizza.html
+Definitions:	http://joeyfuller.github.io/DSW1/element-definitions.html
