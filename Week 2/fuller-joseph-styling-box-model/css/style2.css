@@ -6,6 +6,8 @@ body{
 	font-size:16px;
 	font-weight:200;
 	text-align:left;
+	width: 960px;
+	margin:0 auto;
 }
 
 h1, h2{
@@ -22,6 +24,12 @@ ul{
 	background-color:rgba(200,200,255,0.3);
 	text-transform:capitalize;
 	line-height:28px;
+	list-style-type:upper-roman;
+	width: 300px;
+	height:150px;
+	padding:40px;
+	border:2px black;
+	margin:20px;
 }
 
 a:link {
