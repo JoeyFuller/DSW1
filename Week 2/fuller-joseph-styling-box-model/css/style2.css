@@ -17,6 +17,7 @@ h1, h2{
 	font-style:italic;
 	letter-spacing:1px;
 	text-indent:10px;
+	text-align:center;
 }
 
 ul{
@@ -30,6 +31,7 @@ ul{
 	padding:40px;
 	border:2px black;
 	margin:20px;
+	box-shadow:10px 10px 5px 5px black;
 }
 
 a:link {
