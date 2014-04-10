@@ -2,16 +2,39 @@
 /* CSS Document */
 body{
 	background-color:#03C;
-	font-family: 'helvetica neue', arial, verdana, sans-serif;
+	font-family: 'Tangerine:bold,bolditalic|Inconsolata:italic|Droid+Sans', serif;	
+	font-size:16px;
+	font-weight:200;
+	text-align:left;
 }
 
 h1, h2{
 	color:hsl(120,60%,70%);;
 	background-color:black;
 	text-shadow: 0.1em 0.1em 0.2em #00FFFF;
+	font-style:italic;
+	letter-spacing:1px;
+	text-indent:10px;
 }
 
 ul{
 	color:rgb(255,255,255);
 	background-color:rgba(200,200,255,0.3);
+	text-transform:capitalize;
+	line-height:28px;
+}
+
+a:link {
+	color:#0F0;
+}
+
+a:visited{
+	color:#063;
+}
+a:hover{
+	color:#FFF;
+	text-shadow:#0CF;
+}
+a:active{
+	color:#096;
 }
