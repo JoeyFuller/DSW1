@@ -1,14 +1,14 @@
 @charset "UTF-8";
 /* CSS Document */
 body{
-	background-color:#03C;
+	background-color:#03C; /* all colors were added via self-creation */
 	font-family: 'helvetica neue', arial, verdana, sans-serif;
 }
 
 h1, h2{
-	color:hsl(120,60%,70%);;
+	color:hsl(120,60%,70%); /* color conversion via w3scools */
 	background-color:black;
-	text-shadow: 0.1em 0.1em 0.2em #00FFFF;
+	text-shadow: 0.1em 0.1em 0.2em #00FFFF; /* gives a nice glow rather than a shadow */
 }
 
 ul{
