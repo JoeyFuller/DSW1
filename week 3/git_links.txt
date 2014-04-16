@@ -1,3 +1,0 @@
-github : https://github.com/JoeyFuller/DSW1
-
-Colors.html : http://joeyfuller.github.io/DSW1/box-model.html
