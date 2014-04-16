@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-color:#03C;
+	font-family: 'Tangerine:bold,bolditalic|Inconsolata:italic|Droid+Sans', serif;	
+	font-size:1em;
+	font-weight:200;
+	text-align:left;
+	width:100%;
+	max-width: 860px;
+	margin:0 auto;
+	display:block;
+}
+
+h1, h2{
+	color:hsl(120,60%,70%);;
+	background-color:black;
+	text-shadow: 0.1em 0.1em 0.2em #00FFFF;
+	font-style:italic;
+	letter-spacing:1px;
+	text-indent:10px;
+	text-align:center;
+	margin-top:3%;
+	width:100%;
+}
+
+ul{
+	color:rgb(255,255,255);
+	background-color:rgba(200,200,255,0.3);
+	text-transform:capitalize;
+	line-height:28px;
+	list-style-type:upper-roman;
+	width:30%;
+	min-width: 300px;
+	height:100%;
+	padding:15%;
+	border:2px black;
+	margin:2%;
+	box-shadow:10px 10px 5px 5px black;
+	border-radius:10px;
+	margin-bottom:2%;
+}
+
+a:link {
+	color:#0F0;
+}
+
+a:visited{
+	color:#063;
+}
+a:hover{
+	color:#FFF;
+	text-shadow:#0CF;
+}
+a:active{
+	color:#096;
+}
+
+#char {
+	float:right;
+	width:50%;
+	max-width:400px;
+	margin:3%;
+	padding:3%;
+	clear:both;
+}
