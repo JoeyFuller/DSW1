@@ -12,6 +12,7 @@ header {
 	border-radius:50px;
 	border:solid #000;
 	text-shadow:#FFF 0.1em 0.1em 0.1em #333;
+	font-family: "Lucida Console", Monaco, monospace;
 }
 
 body{
@@ -87,8 +88,8 @@ body{
 	width:426px;
 	height:282px;
 	float:left;
-	box-shadow:0.1em 0.1em 0.1em #fff;
-	display:inline;
+	box-shadow:0.4em 0.3em 0.4em #fff;
+	display:block;
 }
 
 .side {
@@ -102,7 +103,26 @@ body{
 	color:#CCC;
 	opacity:0.4;
 }
+.table {
+	width:240px;
+	font-size:14px;
+	color:#0C0;
+	letter-spacing:inherit;
+	border:dashed #0000FF thin;
+	border-spacing:inherit;
+	text-align:left;
+	background-color:#FFF;
+}
 
+.submit {
+	background-color:#FFF;
+	padding:10px;
+	border:double;
+	font-size:16px;
+	color:#006;
+	margin:auto;
+	width:auto;
+}
 footer {
 	width:100%;
 	max-width:960px;
