@@ -4,13 +4,15 @@
 /*Elements*/
 header {
 	background-color:#003;
-	color:#666;
+	color:#ccc;
 	font-size:60px;
 	text-align:center;
 	width:960px;
 	margin:0 auto;
 	border-radius:50px;
 	border:solid #000;
+	text-shadow:#FFF 0.1em 0.1em 0.1em #333;
+	font-family: "Lucida Console", Monaco, monospace;
 }
 
 body{
@@ -20,9 +22,13 @@ body{
 	border-radius:50px;
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:18px;
-	background-image:url(images/background.jpg);
-	background-position:center;
+	font-weight:100;
+	font-style:italic;
+	font-variant:normal;
+	background-image:url(../images/background.jpg);
+	background-position:left top;
 	background-repeat:repeat;
+	background-attachment:fixed;
 }
 
 .nav {
@@ -36,6 +42,8 @@ body{
 	text-align:center;
 	background-color:#999;
 	border:solid #000;
+	text-shadow:#0FF;
+	line-height: 20px;
 }
 
 .nav li {
@@ -56,43 +64,81 @@ body{
 	
 .container {
 	width:960px;
-	height:4000px;
-	background-color:#666;
+	height:900px;
 	border:solid #000;
+	background-color:transparent;
 }
 
 .main {
-	width:660px;
+	width:650px;
+	height:875px;
 	background-color:#CCC;
 	float:left;
 	overflow:hidden;
 	padding-left:15px;
 	padding-right:15px;
+	margin-right:10px;
+	opacity:0.8;
+	background-image:url(../images/sand.jpeg);
+	background-repeat:no-repeat;
+}
+
+#food {
+	border:solid #000;
+	width:426px;
+	height:282px;
+	float:left;
+	box-shadow:0.4em 0.3em 0.4em #fff;
+	display:block;
 }
 
 .side {
 	width:240px;
+	height:875px;
 	background-color:#009;
 	float:left;
 	overflow:hidden;
 	padding-left:15px;
 	padding-right:15px;
 	color:#CCC;
+	opacity:0.4;
+}
+.table {
+	width:240px;
+	font-size:14px;
+	color:#0C0;
+	letter-spacing:inherit;
+	border:dashed #0000FF thin;
+	border-spacing:inherit;
+	text-align:left;
+	background-color:#FFF;
 }
 
+.submit {
+	background-color:#FFF;
+	padding:10px;
+	border:double;
+	font-size:16px;
+	color:#006;
+	margin:auto;
+	width:auto;
+}
 footer {
 	width:100%;
 	max-width:960px;
 	text-align:center;
 	background-color:#666;
 	color:#000;
+	border:solid #000;
+
 }
 
 /*Misc*/
 h1 {
 	text-align:center;
 	background-color:#000;
-	color:#CCC;
+	color:#fff;
+	text-shadow:0.1em 0.1em 0.2em #fff;
 	border-radius: 50px;
 }
 

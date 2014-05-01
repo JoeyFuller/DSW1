@@ -4,10 +4,11 @@
 <meta charset="UTF-8">
 <title>Grade A Foods</title>
 <link rel="stylesheet" type="text/css" href="css/final.css">
+<script src="js/final.js"></script>
 </head>
 <body>
 <header>Grade A Foods</header>
-<div class="nav">
+<section class="nav">
 	<ul class="link">
     	<li><a href="#">Home</a></li>
         <li><a href="#">Products</a></li>
@@ -15,13 +16,37 @@
         <li><a href="#">Contact</a></li>
         <li><a href="#">FAQs</a></li>
     </ul>
-</div>
-<div class="container">
-	<div class="main">
+</section>
+<section class="container">
+	<section class="main">
     <h1>Welcome To Grade A Foods!</h1>
-    <p>Thank you for choosing Grade A Foods as your primary food source! We can help you in many ways including dinner, parties, weddings, and pretty much anywhere there is food! We do big and we do small! Keep us in mind for any event in your life!</p>
-    </div>  
-    <div class="side">
+    <p>Thank you for choosing Grade A Foods as your primary food source! We can help you in many ways including dinner, parties, weddings, and pretty much anywhere there is food! We do big and we do small! Keep us in mind for any event in your life! <figure id="food">
+    <img src="images/food.jpg" width="426" height="282" alt="food">
+    </figure> We have a huge selection of foods to try from! Come back and try each product we have. Check back often as we recieve new stock weekly!</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="submit">
+    <p>Have a question or concern?</p>
+    <form>
+    Name:    <input type="text" name="name"><br>
+	Request: <input type="text" name="request"><br>
+    Email: <input type="text" name="email">
+	<select>
+ 	<option value="Question">Question</option>
+	<option value="Concern">Concern</option>
+	<option value="FAQ">FAQ</option>
+	<option value="Other">Other</option>
+	</select><br>
+	<input type="checkbox" name="tried" value="Yes">Yes I have tried the product<br>
+	<input type="checkbox" name="tried" value="No">No I have not tried the product <br>
+	<input type="submit" value="Submit">
+    </form>
+    </section>
+    <p>&nbsp;</p>
+    </section>  
+    <aside class="side">
     <h2>Why Choose Us?</h2>
     	<ol>
         	<li>Quality</li>
@@ -30,26 +55,26 @@
             <li>Fresh Daily</li>
             <li>Never Frozen</li>
 		</ol>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <h3>Fresh!</h3>
+        <p>We <strong>always</strong> keep our products fresh and ready for you! We will make sure your event is planned to perfection.</p>
+        <table class="table">
+        	<tr>
+            	<th>Food: </th>
+                	<td>Burgers</td>
+                    <td>Steaks</td>
+                    <td>Fries</td>
+            </tr>
+            <tr>
+            	<th>Drinks</th>
+                	<td>Wines</td>
+                    <td>Beers</td>
+                    <td>Sodas</td>
+             </tr>
+             </table>
+    </aside>
+</section>
 </body>
 <footer>
-<p>&copy; All Rights Reserved</p>
+<p>&copy; All Rights Reserved <a href="mailto:admin@gradeAfoods.com" target="_top">Email Us!</p>
 </footer>
 </html>
