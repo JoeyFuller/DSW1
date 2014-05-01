@@ -20,7 +20,7 @@ body{
 	border-radius:50px;
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:18px;
-	background-image:url(images/background.jpg);
+	background-image:url(../images/background.jpg);
 	background-position:left top;
 	background-repeat:repeat;
 }
